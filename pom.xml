@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.vijay.microservices</groupId>
-	<artifactId>microservices</artifactId>
+	<artifactId>jwt.token.services</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>microservices</name>
+	<name>jwt-token</name>
 	<description>Demo project for Spring Boot Microservices</description>
 
 	<parent>
