@@ -28,12 +28,17 @@ public class OAuth2ResourceServerConfig extends ResourceServerConfigurerAdapter 
 			.requestMatchers()
 			.and()
 			.authorizeRequests()
-			.antMatchers("/get/**", "/swagger-ui.html/**", "/v2/api-docs/**").permitAll()
+			.antMatchers("/get/**", "/swagger-ui.html/**", "/v2/api-docs/**", "/console/**").permitAll()
 			.anyRequest().authenticated()
 			.and()
 			.csrf().disable()
 			.sessionManagement()
 			.sessionCreationPolicy(SessionCreationPolicy.STATELESS);
+		
+			//below line is to make http://localhost:8080/console/ enable
+			http.headers().frameOptions().disable();
+			
+			http.formLogin().disable();
 	}
 	
 }

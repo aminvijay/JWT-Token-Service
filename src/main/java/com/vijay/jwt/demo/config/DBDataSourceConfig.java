@@ -2,6 +2,7 @@ package com.vijay.jwt.demo.config;
 
 import javax.sql.DataSource;
 
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
@@ -31,10 +32,10 @@ public class DBDataSourceConfig {
 
 	// https://www.baeldung.com/the-persistence-layer-with-spring-and-jpa
 	@Bean
-	public LocalContainerEntityManagerFactoryBean entityManagerFactory() {
+	public LocalContainerEntityManagerFactoryBean entityManagerFactory(@Qualifier("msdatasource") DataSource ds) {
 
 		LocalContainerEntityManagerFactoryBean em = new LocalContainerEntityManagerFactoryBean();
-		em.setDataSource(dataSource());
+		em.setDataSource(ds);
 		em.setPackagesToScan(new String[] { "com.vijay.jwt.demo.db.pojo" });
 
 		JpaVendorAdapter vendorAdapter = new HibernateJpaVendorAdapter();
