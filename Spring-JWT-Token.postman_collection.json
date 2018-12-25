@@ -1,0 +1,232 @@
+{
+	"id": "ceb4ab54-ad5f-e6d0-71bb-8e1ff428b15f",
+	"name": "Spring-JWT-Token",
+	"description": "",
+	"order": [
+		"8a3ceac4-968e-590e-2360-2ecb9ba989b5",
+		"07a6f567-51bf-e479-f6c1-bea0f02ca7c8",
+		"cbf87972-bdc2-e2f9-fb48-ec60afbdaae4",
+		"764a9264-2580-ae9c-8a5b-bdd64b5564c2",
+		"d26a7580-00f6-c233-5a87-c18846dbb964"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1538863425934,
+	"owner": "531414",
+	"public": false,
+	"requests": [
+		{
+			"id": "07a6f567-51bf-e479-f6c1-bea0f02ca7c8",
+			"headers": "//Content-Type: application/x-www-form-urlencoded\nAuthorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsidmlqYXktcmVzb3VyY2UtaWRzIl0sInVzZXJfbmFtZSI6ImFqYXkiLCJzY29wZSI6WyJyZWFkIiwid3JpdGUiXSwiZXhwIjoxNTM4OTY1NDY2LCJhdXRob3JpdGllcyI6WyJTVEFOREFSRF9VU0VSIl0sImp0aSI6IjJlOGMzYWUwLTlmODMtNDhjZi1hZWNmLTM3MjlmNTFjYTFjNCIsImNsaWVudF9pZCI6InZpamF5LWNsaWVudC1pZCJ9.rTtKSQ6CPUSzgDGyUyzks9SIwblHG40hJhI3OT7Hz_s\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": false
+				},
+				{
+					"key": "Authorization",
+					"value": "bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsidmlqYXktcmVzb3VyY2UtaWRzIl0sInVzZXJfbmFtZSI6ImFqYXkiLCJzY29wZSI6WyJyZWFkIiwid3JpdGUiXSwiZXhwIjoxNTM4OTY1NDY2LCJhdXRob3JpdGllcyI6WyJTVEFOREFSRF9VU0VSIl0sImp0aSI6IjJlOGMzYWUwLTlmODMtNDhjZi1hZWNmLTM3MjlmNTFjYTFjNCIsImNsaWVudF9pZCI6InZpamF5LWNsaWVudC1pZCJ9.rTtKSQ6CPUSzgDGyUyzks9SIwblHG40hJhI3OT7Hz_s",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/users/user/ajay",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1539058066057,
+			"name": "GetUser",
+			"description": "",
+			"collectionId": "ceb4ab54-ad5f-e6d0-71bb-8e1ff428b15f",
+			"responses": []
+		},
+		{
+			"id": "764a9264-2580-ae9c-8a5b-bdd64b5564c2",
+			"headers": "//Content-Type: application/x-www-form-urlencoded\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsidmlqYXktcmVzb3VyY2UtaWRzIl0sInNjb3BlIjpbInJlYWQiLCJ3cml0ZSJdLCJleHAiOjE1MzkyMjQ0NDksImp0aSI6IjU3MjhjN2RkLWM4MmItNGUyNi05YWE0LTU2MDA0YTg1MjRlZCIsImNsaWVudF9pZCI6InZpamF5LWNsaWVudC1pZCJ9.f1Syg40wjnJkE4awSeP00WUaAFJQsBFHMoaVJ02VxxM\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": false
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsidmlqYXktcmVzb3VyY2UtaWRzIl0sInNjb3BlIjpbInJlYWQiLCJ3cml0ZSJdLCJleHAiOjE1MzkyMjQ0NDksImp0aSI6IjU3MjhjN2RkLWM4MmItNGUyNi05YWE0LTU2MDA0YTg1MjRlZCIsImNsaWVudF9pZCI6InZpamF5LWNsaWVudC1pZCJ9.f1Syg40wjnJkE4awSeP00WUaAFJQsBFHMoaVJ02VxxM",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/microservice/productbook/1",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1539224246664,
+			"name": "GetProducts-Book",
+			"description": "",
+			"collectionId": "ceb4ab54-ad5f-e6d0-71bb-8e1ff428b15f",
+			"responses": []
+		},
+		{
+			"id": "8a3ceac4-968e-590e-2360-2ecb9ba989b5",
+			"headers": "Content-Type: application/x-www-form-urlencoded\nAuthorization: Basic dmlqYXktY2xpZW50LWlkOnZpamF5LWNsaWVudC1zZWNyZXQ=\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Basic dmlqYXktY2xpZW50LWlkOnZpamF5LWNsaWVudC1zZWNyZXQ=",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/oauth/token?grant_type=client_credentials",
+			"queryParams": [
+				{
+					"key": "grant_type",
+					"value": "client_credentials",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "ceb4ab54-ad5f-e6d0-71bb-8e1ff428b15f",
+			"data": null,
+			"dataMode": "params",
+			"name": "Generate-JWT-Token-Client-Credentials",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1538863429051,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "cbf87972-bdc2-e2f9-fb48-ec60afbdaae4",
+			"headers": "//Content-Type: application/x-www-form-urlencoded\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsidmlqYXktcmVzb3VyY2UtaWRzIl0sInNjb3BlIjpbInJlYWQiLCJ3cml0ZSJdLCJleHAiOjE1MzkyMjE3MTIsImp0aSI6ImQyYzI5ZDM4LTZhOGMtNGNlYS1iNWM2LTA3MzI5ZGYyNmU5MCIsImNsaWVudF9pZCI6InZpamF5LWNsaWVudC1pZCJ9.42S70TJmtgfT9NguZ-ci2E_pC2ioATKsRmDEmDCSkuU\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": false
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsidmlqYXktcmVzb3VyY2UtaWRzIl0sInNjb3BlIjpbInJlYWQiLCJ3cml0ZSJdLCJleHAiOjE1MzkyMjE3MTIsImp0aSI6ImQyYzI5ZDM4LTZhOGMtNGNlYS1iNWM2LTA3MzI5ZGYyNmU5MCIsImNsaWVudF9pZCI6InZpamF5LWNsaWVudC1pZCJ9.42S70TJmtgfT9NguZ-ci2E_pC2ioATKsRmDEmDCSkuU",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/microservice/products/apple",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1539223858499,
+			"name": "GetProducts-Micro",
+			"description": "",
+			"collectionId": "ceb4ab54-ad5f-e6d0-71bb-8e1ff428b15f",
+			"responses": []
+		},
+		{
+			"id": "d26a7580-00f6-c233-5a87-c18846dbb964",
+			"headers": "Authorization: Basic dmlqYXktY2xpZW50LWlkOnZpamF5LWNsaWVudC1zZWNyZXQ=\n//username: ajay\n//password: jwtpass\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Basic dmlqYXktY2xpZW50LWlkOnZpamF5LWNsaWVudC1zZWNyZXQ=",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "username",
+					"value": "ajay",
+					"description": "",
+					"enabled": false
+				},
+				{
+					"key": "password",
+					"value": "jwtpass",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "http://localhost:8080/oauth/token?grant_type=password&username=ajay&password=jwtpass",
+			"queryParams": [
+				{
+					"key": "grant_type",
+					"value": "password",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "username",
+					"value": "ajay",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "jwtpass",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1538868306889,
+			"name": "Generate-JWT-Token-Password",
+			"description": "",
+			"collectionId": "ceb4ab54-ad5f-e6d0-71bb-8e1ff428b15f",
+			"responses": [],
+			"rawModeData": "username=ajay&password=jwtpass"
+		}
+	]
+}
